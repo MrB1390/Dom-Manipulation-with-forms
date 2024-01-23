@@ -1,0 +1,55 @@
+/* styles.css */
+.container {
+  display: flex;
+  font-size: x-large;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; 
+}
+.form-container {
+  border: 1px solid black;
+  padding: 20px;
+  margin: 0 auto;
+  width: 80vw; 
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.radio-group,
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+
+}
+
+.radio-group label,
+.checkbox-group label {
+  margin-left: 10px;
+}
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+}
+
+th {
+  border: 2px solid #000;
+  font-weight: bold;
+  padding: 10px;
+}
+
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
